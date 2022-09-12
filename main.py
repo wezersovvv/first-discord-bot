@@ -5,8 +5,8 @@ import asyncio
 import aiohttp
 
 # intents 
-inteny = discord.Intents.default()
-inteny.members = True
+intent = discord.Intents.default()
+intent.members = True
 
 # bot prefix
 PREFIX = r'!'
